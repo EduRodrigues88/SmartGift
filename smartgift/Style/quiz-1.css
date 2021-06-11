@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.quiz-container{
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.quiz__container{
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(250, 250, 250, 1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.quiz__container main{
+    margin-top: 20px;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    display: flex;
+}
+main .presenteando-quiz img{
+    max-height: 250px;
+    align-items: center;
+    float: left;
+}
+
+main div h1{
+    font-family: 'Monserrat', sans-serif;
+    text-align: center;
+}
+
+main div p{
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main div p a{
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+main div p a button{
+    margin-top: 30px;
+}
+
+main div p a:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.carrosel-presentes{
+  max-width: 1300px;
+  padding: 40px;
+  margin: auto;
+}
+
+.carrosel__presentes{
+  width: 85%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.box-presente{
+  display: block;
+}
+
+@media(width:1920px){
+  .carrosel-peças{
+      margin-top: 50px;
+      width: 60%;
+      padding: 40px;
+  }
+ }
+
+
+
+.container-destaques{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.cards {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+}
+
+
+.article-img {
+  height: 200px;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+
+.article-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: aliceblue;
+  background-color: rgba(0,136,169,0.8);
+  border-radius: 50px;
+}
+  
+

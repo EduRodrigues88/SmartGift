@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGift | Quiz</title>
+
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/perguntas.css">
+</head>
+<body>
+
+    <header>
+        <div class="container-header">
+            <a href="index.html"><img class="logo" src="Imgs/logo-smart-amararelo.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz-1.html">Quiz</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="destaques.html" class="cta"><button>Destaques</button></a>
+        </div>
+    </header>
+
+    <div class="perguntas-container">
+        <div class="container-perguntas">
+            <form method="POST" action="./ver_resultado-female.php">
+                    <h1>QUIZ</h1>        
+                <article>
+                    <p>
+                        <label id="pergunta">Ela prefere sair ou ficar em casa?</label><br />
+                        <input type="radio" name="perg1" value="opt1" style="width: 20px; height: 20px; margin-top: 25px;"> SAIR
+                        <input type="radio" name="perg1"  value="opt2" style="width: 20px; height: 20px; margin-left: 20px ;"> FICAR EM CASA
+                    </p>
+                <div class="linhas"></div>
+                    <p>
+                        <label id="pergunta">Ela gosta de coisas retro ou mais modernas?</label><br />
+                        <input type="radio" name="perg2" value="opt1" style="width: 20px; height: 20px; margin-top: 25px;"> RETRO
+                        <input type="radio" name="perg2"  value="opt2" style="width: 20px; height: 20px; margin-left: 20px ;"> MODERNA
+                    </p>
+                <div class="linhas"></div>
+                    <p>
+                        <label id="pergunta">Ela passa mais tempo se arrumandou ou se maquiando?</label><br />
+                        <input type="radio" name="perg3" value="opt1" style="width: 20px; height: 20px; margin-top: 25px;"> SE ARRUMANDO
+                        <input type="radio" name="perg3"  value="opt2" style="width: 20px; height: 20px; margin-left: 20px ;"> SE MAQUIANDO
+                    </p>
+                <div class="linhas"></div>
+                    <p>
+                        <label id="pergunta">Ela é extrovertida ou introvertida?</label><br />
+                        <input type="radio" name="perg4" value="opt1" style="width: 20px; height: 20px; margin-top: 25px;"> EXTROVERTIDA
+                        <input type="radio" name="perg4"  value="opt2" style="width: 20px; height: 20px; margin-left: 20px ;"> INTROVERTIDA
+                    </p>
+                <div class="linhas"></div>
+                    <p>
+                        <label id="pergunta">Ela gosta de sair com estilo?</label><br />
+                        <input type="radio" name="perg5" value="opt1" style="width: 20px; height: 20px; margin-top: 25px;"> SIM
+                        <input type="radio" name="perg5"  value="opt2" style="width: 20px; height: 20px; margin-left: 20px ;"> NÃO
+                    </p>
+                    
+                </article>
+                <a href="ver_resultado-female.php"> <button id="botao-resultado"> VER RESULTADO </button></a>
+                </form>
+            </div>
+        </div>
+
+        
+    <footer>
+        <div class="container-footer">
+            <article>
+                <img src="Imgs/logo-smart-amararelo.png" alt="logo-rodape">
+            </article>
+            <article>
+                <p class="copy">Copyright &copy; 2021</p>
+            </article>
+            <article>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quiz-1.html">Quiz</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+    </footer>
+
+</body>
+</html>

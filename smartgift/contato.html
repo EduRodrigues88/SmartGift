@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Smart Gift</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="Style/utilities.css">
+        <link rel="stylesheet" href="Style/style.css">
+        <link rel="stylesheet" href="Style/contato.css">
+    </head>
+
+    <body>
+    
+        <header>
+            <div class="container-header">
+                <a href="index.html"><img class="logo" src="Imgs/logo-smart-amararelo.png" alt="logo"></a>
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quiz-1.html">Quiz</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+                <a href="destaques.html" class="cta"><button>Destaques</button></a>
+            </div>
+        </header>
+
+        <div class="saq">
+            <div>
+                <h1 id="titulo">Dúvidas e Problemas</h1>
+                <p id="subtitulo">Complete suas informações</p>
+                <br>
+            </div>
+    
+            <form action="PhP/enviar.php" name="form_contato" method="post">
+                    <fieldset class="dados">
+    
+                        <div class="campo">
+                            <label id="nome-sobrenome" class="nome" for="nome"><strong>Nome</strong></label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+    
+    
+                        <div class="campo">
+                            <label id="nome-sobrenome" for="sobrenome"><strong>Sobrenome</strong></label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                        </div>
+                    </fieldset> 
+    
+    
+                    <div class="campo">
+                        <label for="email"><strong>Email</strong></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+    
+                    <div class="campo">
+                        <label id="pergunta-secundaria"><strong>Qual seu objetivo com a pergunta?</strong></label>
+                        <label>
+                            <input type="radio" name="devweb" value="duvidas" checked>Tirar uma dúvida
+                        </label>
+                        <label>
+                            <input type="radio" name="devweb" value="backend">Resolver um problema
+                        </label>
+                        <label>
+                    </div>
+    
+                    <fieldset class="dados">
+                        <div id="check">
+                            <label id="pergunta-secundaria"><strong>Por onde deseja receber sua resposta?</strong></label><br><br>
+                            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                            <label for="tecnologia1"> Email</label>
+                        </div>
+                    </fieldset>
+    
+                    <div class="campo">
+                        <br>
+                        <label id="pergunta-secundaria" for="duvidas"><strong>Conte-nos sua duvida ou problema: </strong></label>
+                        <textarea rows="6" style="width: 26em" id="duvidas" name="duvidas"></textarea>
+                    </div>
+    
+                    <button class="botao-contato" type="submit" onsubmit="">Enviar</button> 
+                </form>
+            </div>
+
+        
+        <div class="footer">
+            <footer>
+                <div class="container-footer">
+                    <article>
+                        <img src="IMGS/logo-orange.png" alt="logo-rodape">
+                    </article>
+                    <article>
+                        <p class="copy">Copyright &copy; 2021</p>
+                    </article>
+                    <article>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="quiz-1.html">Quiz</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </article>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>

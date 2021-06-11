@@ -1,0 +1,58 @@
+.cards {
+    margin: 1.5rem 0;
+}
+
+
+
+.grid {
+    display: grid;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin: 10px;
+    min-height: 130px;
+    align-items: center;
+}
+
+.card i{
+    float: left;
+    padding: 10px;
+    align-items: center;
+}
+
+.card p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.flex-1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.flex-2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.flex-3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.flex-4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.flex-5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.flex-6{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}

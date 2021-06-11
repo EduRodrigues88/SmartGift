@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container-recomenda{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container__recomenda{
+    border-radius: 10px;
+
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 780px;
+    padding: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container__recomenda .item-1{
+    width: 40%;
+    margin: auto;
+}
+
+.item{
+    width: 60%;
+    float: left;
+}
+
+.item-2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+
+.item-3{
+    font-size: 15px;
+    text-align: center;
+}
+
+.descricao{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 10px;
+}

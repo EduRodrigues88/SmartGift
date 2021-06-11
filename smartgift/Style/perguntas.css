@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.perguntas-container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container-perguntas{
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.container-perguntas h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+
+.container-perguntas p{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+.container-perguntas .linhas{
+    height: 2px;
+    max-width: 70%;
+    background: rgba(0,136,169,0.8);
+    margin: auto;
+}
+
+button .botao-resultado{
+    color: chartreuse;
+}
+
+#pergunta{
+    font-size: 22px;
+}
+
+.container-perguntas p{
+    margin: 50px;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+#titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+} 
+
+#subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #0b62b3;
+} 
+
+#pergunta-secundaria{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nome-sobrenome{
+    font-family: 'Montserrat' sans-serif;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+.saq{
+    font-size: 1em;
+    color: #0b62b3;
+    background: #ffffff;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select, textarea, .butao-contato {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #0b62b3;
+    border-radius: 5px;
+}
+
+.dados:before, .dados:after {
+    display: table;
+}
+
+.dados:after {
+    clear: both;
+}
+
+.campo .nome-sobrenome{
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #0b62b3;
+    display: block;
+}
+
+fieldset .dados .campo {
+    display: inline-block;
+}
+
+fieldset .dados .campo .nome{
+    float: left;
+}
+ 
+.campo select option {
+    padding-right: 1em;
+}
+
+
+.botao-contato {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 22px;
+    background: #EFC600;
+    border: 0;
+    color: #2894fa;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+.botao-contato:hover {
+    background: #0b62b3;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao-container, select{
+    cursor: pointer;
+}
+
+    footer{
+        position:fixed;
+        bottom:0;
+        width:100%;
+    }

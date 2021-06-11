@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container-gender{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container__gender{
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    margin-top: 50px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.container__gender h1{
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.element{
+    justify-content: center;
+    width: 50%;
+    height: 470px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.gender_first{
+    background-color: cyan;
+    float: left;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.gender_first:hover{
+    background-color: rgb(27, 160, 248);
+    transition: all 0.7s ease 0s;
+}
+
+.gender_first img{
+    margin-left: 25%;
+}
+
+.gender_second{
+    background-color: rgb(228, 31, 113);
+    float: right;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.gender_second:hover{
+    background-color: rgb(220, 20, 63);
+    transition: all 0.7s ease 0s;
+}
+
+.gender_second img{
+    margin-left: 25%;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
