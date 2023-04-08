@@ -37,12 +37,6 @@ Nossa equipe começou pensando em contrapontos do projeto, e na avaliação do u
 
 <p><strong>Eduardo Lemos Martins</strong>: Sub-Gerente e Desenvolvedor Back-End</p>
 
-<p><strong>Douglas Silva</strong>: Controle de Qualidade</p>
-
-<p><strong>Giovanna Brait</strong>: Gerente de Marketing</p>
-
-<p><strong>Silvio Alexandre Netto</strong>: Analista</p>
-
 
 
 
