@@ -26,16 +26,3 @@ Nossa equipe começou pensando em contrapontos do projeto, e na avaliação do u
 | Consertar responsividade para dispositivos móveis.           |
 | Adicionar mais perguntas.                                    |
 | Mais produtos na página destaque.                            |
-
-
-
-
-
-<h3>Membros do projeto e suas funções</h3>
-
-
-
-
-
-
-
