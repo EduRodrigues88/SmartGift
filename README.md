@@ -33,9 +33,7 @@ Nossa equipe começou pensando em contrapontos do projeto, e na avaliação do u
 
 <h3>Membros do projeto e suas funções</h3>
 
-<p><strong>Eduardo Rodrigues de Sousa</strong>: Desenvolvedor Back-End</p>
 
-<p><strong>Eduardo Lemos Martins</strong>: Desenvolvedor Front-End</p>
 
 
 
