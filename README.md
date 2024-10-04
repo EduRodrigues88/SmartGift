@@ -17,7 +17,10 @@ Nossa equipe começou pensando em contrapontos do projeto, e na avaliação do u
 
 <p>      O passo final foi escolher o nome e um logo, surgiram várias ideias, uma delas foram “Choicer Gift”, “Gift Helper”. A escolha se deu por “Smart” se entender como “inteligente” e “gift” de “presente”, como o nosso site tem como esse diferencial do sistema inteligente escolher o presente dependendo das respostas no quiz, o nome final foi “Smart Gift”.</p>
 
-
+<p>
+  Link Apresentando o Site Smart Girft
+  <a href="https://youtu.be/PaIIABHBMy0">Smart Gift Apresentação</a>.
+</p>
 
 <h3>Fase do projeto</h3>
 
